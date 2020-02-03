@@ -75,9 +75,11 @@
 -----------------------------------------------------------------------------------------
 
 Pastbin for share code to other one
+
+vs code ext install esbenp.prettier-vscode
+
 Angular Imp URLs:
 https://github.com/manavpandya?tab=repositories
-vs code ext install esbenp.prettier-vscode
 
 
 
