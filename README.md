@@ -1,6 +1,6 @@
 # imp-note
 
-**Terminal command for the zip,copy/move and permission**
+# Terminal command for the zip,copy/move and permission 
     
     1. Make zip or create archive
     
@@ -42,7 +42,7 @@
         https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
 
 
-**Common Changes in php.ini file on AWS server**
+# Common Changes in php.ini file on AWS server
 
     1. Open file by below commmand
         sudo nano /etc/php.ini
