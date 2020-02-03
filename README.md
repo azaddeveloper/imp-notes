@@ -75,6 +75,7 @@
 -----------------------------------------------------------------------------------------
 
 Pastbin for share code to other one
+    https://pastebin.com/
 
 vs code ext install esbenp.prettier-vscode
 
