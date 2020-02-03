@@ -36,7 +36,7 @@
          cat *.sql  > .all_files.sql
     
     For more detail
-   https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
+    https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
 
 
 # Common Changes in php.ini file on AWS server
