@@ -67,6 +67,11 @@
     to increase timeout 
     # Set the cache to timeout after 1 hour (setting is in seconds)
     git config --global credential.helper 'cache --timeout=3600'     
+    
+# import db in ubuntu
+    1. Go in directory
+        cd /opt/lampp/bin
+    2. ./mysql -h localhost -u root -p  <  ; // /mysql -h localhost -u root -p db_name < sql_file_path ;    
         
         
 Pastbin for share code to other one
@@ -88,7 +93,4 @@ vs code ext install esbenp.prettier-vscode
 
 
 
-import db in ubuntu
-1. Go in directory
-   cd /opt/lampp/bin
-2. ./mysql -h localhost -u root -p  <  ; // /mysql -h localhost -u root -p db_name < sql_file_path ;
+
