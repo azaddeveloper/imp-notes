@@ -38,20 +38,26 @@
         https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
 
 
-**Common Changes in php.ini file**
+**Common Changes in php.ini file on AWS server**
 
-    1.sudo nano  /etc/php.ini
+    1. Open file by commmand
+        sudo nano /etc/php.ini
     
-    2.
+    2. find and replace according your need
         --------------
         upload_max_filesize=64M
         post_max_size=64M
         max_execution_time=100
         --------------
         
-    3.save by ctr+o then enter ctr+x
+    3. Save it ctr+o then enter ctr+x
     
-    4.sudo /etc/init.d/httpd restart
+    4. Then resetart server
+    
+        sudo /etc/init.d/httpd restart
+        
+        
+        
 Pastbin for share code to other one
 
 
