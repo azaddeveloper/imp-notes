@@ -13,17 +13,26 @@
         sudo tar -czvf where to download(/var/abc.tar.gz) folder path for(/var/www/abc) --exclude=/var/www/abc/xyz
      
     3. Copy or move by terminal  
+    
          sudo cp /path/to/source /path/to/dest/directory/
          ex  sudo cp -r /var/www/html/folder/* /var/www/html/
          copy hidden file
          sudo cp -r /var/www/html/folder/* /var/www/html/  // add . in place of *
-    4. Show hidden file 
+         
+    4. Show hidden file
+    
         ls -ld .?* 
+        
     5. Unzip or extract by terminal
+    
         sudo tar -xvzf /filepath/
+        
     6. Permission of the file
+    
         sudo chmod 777 -R /var/www/html/develop
+        
     7. Delete a file or folder by terminal 
+    
          sudo rm -rf /file or filder path/
 
 
