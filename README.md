@@ -1,42 +1,30 @@
 # imp-note
 
-**Url for make zip in putty or terminal**
+**Terminal command for the zip,copy/move and permission**
 
     https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
-
-sudo tar -czvf where to download(/var/abc.tar.gz) folder path for(/var/www/abc)
-
-ex->  tar -czvf /data/web/e18943/html/backup-20-08-201.tar.gz /data/web/e18943/html
-
-with exclude command use for left that floder 
-sudo tar -czvf where to download(/var/abc.tar.gz) folder path for(/var/www/abc) --exclude=/var/www/abc/xyz
-
-
-Copy in putty 
-sudo cp /path/to/source /path/to/dest/directory/
-ex 
-sudo cp -r /var/www/html/pressureproweb/ppnew/* /var/www/html/
-
-copy hidden file
-cp -r /etc/skel/. /home/<new_user>  // add . in place of *
-show hidden file 
-ls -ld .?* 
-
-
-
-unzip in putty
-
-sudo path to the file
-i)chnge direcory 
-tar -xvzf /home/lifedata/backup-29-08-201.tar.gz
-
-permission 
- sudo chmod 777 /home/lifedata/public_html/devlop
-
-sudo chmod 777 -R /var/www/html/develop
-
-delete in putty 
-sudo rm -rf /folder
+    
+    1. Make zip or create archive
+    
+        sudo tar -czvf where to download(/var/abc.tar.gz) folder path for(/var/www/abc)
+        
+    2. Exclude command use for exclude a folder of file
+    
+        sudo tar -czvf where to download(/var/abc.tar.gz) folder path for(/var/www/abc) --exclude=/var/www/abc/xyz
+     
+    3. Copy or move by terminal  
+         sudo cp /path/to/source /path/to/dest/directory/
+         ex  sudo cp -r /var/www/html/folder/* /var/www/html/
+         copy hidden file
+         sudo cp -r /var/www/html/folder/* /var/www/html/  // add . in place of *
+    4. Show hidden file 
+        ls -ld .?* 
+    5. Unzip or extract by terminal
+        sudo tar -xvzf /filepath/
+    6. Permission of the file
+        sudo chmod 777 -R /var/www/html/develop
+    7. Delete a file or folder by terminal 
+         sudo rm -rf /file or filder path/
 
 
 Pastbin for share code to other one
