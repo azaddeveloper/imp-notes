@@ -1,8 +1,6 @@
 # imp-note
 
 **Terminal command for the zip,copy/move and permission**
-
-    https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
     
     1. Make zip or create archive
     
@@ -34,7 +32,9 @@
     7. Delete a file or folder by terminal 
     
          sudo rm -rf /file or filder path/
-
+For more detail
+    
+    https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
 
 Pastbin for share code to other one
 
