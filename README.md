@@ -74,14 +74,11 @@
     2. ./mysql -h localhost -u root -p  <  ; // /mysql -h localhost -u root -p db_name < sql_file_path ;    
         
         
+-----------------------------------------------------------------------------------------
+
 Pastbin for share code to other one
-
-
 Angular Imp URLs:
 https://github.com/manavpandya?tab=repositories
-
-
-
 vs code ext install esbenp.prettier-vscode
 
 
