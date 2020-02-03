@@ -32,6 +32,10 @@
     7. Delete a file or folder by terminal 
     
          sudo rm -rf /file or filder path/
+         
+    8. Merge multple files into one file
+        
+         cat *.sql  > .all_files.sql
     
     For more detail
     
@@ -40,7 +44,7 @@
 
 **Common Changes in php.ini file on AWS server**
 
-    1. Open file by commmand
+    1. Open file by below commmand
         sudo nano /etc/php.ini
     
     2. find and replace according your need
@@ -50,12 +54,19 @@
         max_execution_time=100
         --------------
         
-    3. Save it ctr+o then enter ctr+x
+    3. Save it by ctr+o then enter ctr+x
     
     4. Then resetart server
     
         sudo /etc/init.d/httpd restart
-        
+
+# Save git credentails in terminal
+    
+    1.git config --global credential.helper store 
+    then type once username and password it will save for 15 min
+    to increase timeout 
+    # Set the cache to timeout after 1 hour (setting is in seconds)
+    git config --global credential.helper 'cache --timeout=3600'     
         
         
 Pastbin for share code to other one
@@ -72,16 +83,10 @@ vs code ext install esbenp.prettier-vscode
 
 
 
-save git password in terminal
-1.git config --global credential.helper store 
-then type once username and password it will save for 15 min
-to increase timeout 
-# Set the cache to timeout after 1 hour (setting is in seconds)
-git config --global credential.helper 'cache --timeout=3600'
 
 
-// merge multple files into one file
-cat *.sql  > .all_files.sql
+
+
 
 import db in ubuntu
 1. Go in directory
