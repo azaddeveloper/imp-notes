@@ -1,5 +1,3 @@
-# imp-note
-
 # Terminal command for the zip,copy/move and permission 
     
     1. Make zip or create archive
