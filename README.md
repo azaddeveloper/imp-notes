@@ -39,14 +39,18 @@
 
 
 **Common Changes in php.ini file**
+
     1.sudo nano  /etc/php.ini
+    
     2.
         --------------
         upload_max_filesize=64M
         post_max_size=64M
         max_execution_time=100
         --------------
+        
     3.save by ctr+o then enter ctr+x
+    
     4.sudo /etc/init.d/httpd restart
 Pastbin for share code to other one
 
@@ -61,16 +65,6 @@ vs code ext install esbenp.prettier-vscode
 
 
 
-update php.ini
-1.sudo nano  /etc/php.ini
-2.
---------------
-upload_max_filesize=64M
-post_max_size=64M
-max_execution_time=100
---------------
-3.save by ctr+o then enter ctr+x
-4.sudo /etc/init.d/httpd restart
 
 save git password in terminal
 1.git config --global credential.helper store 
