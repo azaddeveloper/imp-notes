@@ -2,7 +2,7 @@
 
 **Url for make zip in putty or terminal**
 
-    Main url:https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
+    https://www.howtogeek.com/248780/how-to-compress-and-extract-files-using-the-tar-command-on-linux/
 
 sudo tar -czvf where to download(/var/abc.tar.gz) folder path for(/var/www/abc)
 
