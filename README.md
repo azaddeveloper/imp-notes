@@ -35,7 +35,10 @@
         
          cat *.sql  > .all_files.sql
          
-    9. set cron in AWS
+    9. Set cron in AWS
+        i)  First we have to check cron is set or not by **cron -l**
+        II) Set cron by **crontab -e ** and insert all cron rule
+        III) Save by escap :wq!  and direct exit use ctr+z
         
          nano crontab -e
     
