@@ -56,6 +56,7 @@
         upload_max_filesize=64M
         post_max_size=64M
         max_execution_time=100
+        memory_limit = 8192M
         --------------
         
     3. Save it by ctr+o then enter ctr+x
