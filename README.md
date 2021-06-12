@@ -91,7 +91,9 @@ https://github.com/manavpandya?tab=repositories
 
 
 
-
+# Bind SRT File video
+    (MKVToolNix GUI)https://www.filehorse.com/download-mkvtoolnix-64/download/
+    https://youtu.be/jhF0lxdEq8U
 
 
 
