@@ -64,6 +64,14 @@
     4. Then resetart server
     
         sudo /etc/init.d/httpd restart
+        
+        After changin the php.ini file I also had to restart FPM:
+
+        sudo systemctl restart php-fpm.service
+
+        before restarting apache:
+
+        sudo systemctl restart httpd
 
 # Save git credentails in terminal
     
