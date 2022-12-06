@@ -72,6 +72,13 @@
         before restarting apache:
 
         sudo systemctl restart httpd
+        
+         sudo systemctl restart  php-fpm.service
+         
+        To check which service we are using
+        
+        systemctl -l --type service --all
+
 
 # Save git credentails in terminal
     
