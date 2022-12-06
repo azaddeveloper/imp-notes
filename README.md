@@ -79,7 +79,12 @@
         
         systemctl -l --type service --all
 
+        if you’re using unix based system (linux) you may try to create a new file in your root directory(e.g: var/www or public_html) with this name: .user.ini       
+        (Exactly this name. Dot at the beginning is required). Then try to set your values:
 
+        post_max_size = 300M
+        upload_max_filesize = 300M
+        
 # Save git credentails in terminal
     
     1.git config --global credential.helper store 
